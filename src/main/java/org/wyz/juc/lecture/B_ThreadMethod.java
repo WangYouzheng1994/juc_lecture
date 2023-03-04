@@ -2,7 +2,6 @@ package org.wyz.juc.lecture;
 
 import com.google.common.base.Stopwatch;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.logging.slf4j.Log4jLogger;
 
 import java.util.concurrent.TimeUnit;
 
@@ -14,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  * @since 2023/3/5 1:21
  */
 @Slf4j
-public class BThreadMethod {
+public class B_ThreadMethod {
     public static void main(String[] args) {
         Stopwatch started = Stopwatch.createStarted();
 

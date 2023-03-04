@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
  * @since 2023/3/5 1:45
  */
 @Slf4j
-public class CThreadscheduling {
+public class C_Threadscheduling {
     public static void main(String[] args) {
         // Java中采取了 抢占式调度。也就是THread在CPU执行上下文中 是在来回切换的。 具体下次CPU去执行哪个线程是不知道的。
         /**

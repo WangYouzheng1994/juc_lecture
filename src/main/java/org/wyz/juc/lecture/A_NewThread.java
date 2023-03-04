@@ -78,6 +78,39 @@ public class ANewThread {
             log.error(e.getMessage(), e);
         }
     }
+
+    /**
+     * 自己搞~ （idea都提示了~）
+     */
+    static void lambdaType() {
+
+    }
+
+    /**
+     * 匿名内部类三种方式的写法
+     */
+    static void anonymousInnerClass() {
+        new Thread(){
+            @Override
+            public void run() {
+                log.info("我是匿名内部类Thread");
+            }
+        }.start();
+
+        FutureTask thread = new FutureTask<>(new Callable<>() {
+            @Override
+            public Object call() throws Exception {
+                return 123;
+            }
+        });
+
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        }).start();
+    }
 }
 
 @Slf4j
