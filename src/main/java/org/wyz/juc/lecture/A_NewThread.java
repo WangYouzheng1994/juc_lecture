@@ -18,7 +18,7 @@ import java.util.concurrent.FutureTask;
  * @since 2023/3/5 0:45
  */
 @Slf4j
-public class ANewThread {
+public class A_NewThread {
     public static void main(String[] args) {
 //        createThread();
 
